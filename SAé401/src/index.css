@@ -4,17 +4,30 @@
 
 @layer base {
   :root {
-    /* Primitives Tokens  */
-    --clr-white: 0 0% 100%;
-    --clr-dark-grey: 0 0% 10%;
-    /* Sementics Tokens */
-    --foreground: var(--clr-dark-grey);
-    --background: var(--clr-white);
+    --clr-bg: 220 100% 8%;
+    --clr-bg-menu-responsive: 220 100% 8%;
+    --clr-bg-btn: 212 100% 47%;
+    --clr-bg-btn-gray: 217 10% 84%;
+    --clr-bg-btn-hover: 211 100% 59%;
+    --clr-bg-categorie: 220 38% 23%;
+    --clr-font-white: 0 0% 100%;
 
-    --radius: 0.5rem;
-    --gap: 1rem;
+    --font-family: "The Sans", sans-serif;
 
+    --font-weight-title: 700;
+    --font-size-title: 24px;
+    --font-line-height-title: 31px;
+
+    --font-weight-sous-title: 400;
+    --font-size-sous-title: 16px;
+    --font-line-height-sous-title: 18px;
+
+    --font-weight-btn: 500;
+    --font-size-btn: 16px;
+    --font-line-height-btn: 48px;
     
-    
+    --font-weight-title-categorie: 500;
+    --font-size-title-categorie: 28px;
+    --font-line-height-title-categorie: 39px;
   }
 }
